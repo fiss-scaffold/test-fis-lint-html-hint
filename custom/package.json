@@ -1,0 +1,27 @@
+{
+  "name": "test-fis-lint-html-hint",
+  "version": "1.0.0",
+  "description": "a test demo for fis-lint-html-hint",
+  "main": "index.js",
+  "scripts": {
+    "test-on-fiss": "fiss release -d output -l",
+    "test": "fis3 release -d output -l"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiss-plugins/test-fis-lint-html-hint.git"
+  },
+  "keywords": [
+    "test",
+    "fis-lint-html-hint"
+  ],
+  "author": "zhangyihua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fiss-plugins/test-fis-lint-html-hint/issues"
+  },
+  "homepage": "https://github.com/fiss-plugins/test-fis-lint-html-hint#readme",
+  "dependencies": {
+    "fis-lint-html-hint": "^1.0.1"
+  }
+}
